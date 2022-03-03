@@ -3,6 +3,7 @@
   "workspaces": [
     "reactjs/1-1",
     "reactjs/1-2",
-    "reactjs/2-1"
+    "reactjs/2-1",
+    "reactjs/2-2"
   ]
 }
