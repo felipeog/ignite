@@ -1,4 +1,4 @@
-_Rockeseat_
+_Rocketseat_
 
 # Ignite
 
