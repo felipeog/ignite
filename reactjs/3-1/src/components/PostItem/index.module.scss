@@ -1,0 +1,25 @@
+.container {
+  display: block;
+  transition: opacity var(--transition-duration);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  margin-bottom: 1.5rem;
+  color: var(--body);
+}
+
+.info {
+  display: flex;
+}
+
+.label:first-child {
+  margin-right: 1.625rem;
+}

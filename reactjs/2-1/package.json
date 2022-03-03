@@ -1,5 +1,7 @@
 {
-  "name": "2-1",
+  "name": "reactjs-2-1",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -45,11 +47,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
     ]
   }
 }
