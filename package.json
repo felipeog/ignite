@@ -1,3 +1,6 @@
 {
-  "name": "ignite"
+  "name": "ignite",
+  "workspaces": [
+    "reactjs/1-1"
+  ]
 }
