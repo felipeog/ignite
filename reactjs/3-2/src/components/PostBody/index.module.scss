@@ -1,0 +1,45 @@
+.container {
+  margin-bottom: 5rem;
+}
+
+.content + .content {
+  margin-top: 5rem;
+}
+
+.contentTitle {
+  margin-bottom: 3.75rem;
+}
+
+.contentText {
+  line-height: 1.4;
+
+  * + * {
+    margin-top: 1.875rem;
+  }
+
+  li + li {
+    margin-top: 0.5rem;
+  }
+
+  a {
+    color: var(--highlight);
+    transition: opacity var(--transition-duration);
+
+    &:visited {
+      color: var(--highlight-muted);
+    }
+
+    &:hover {
+      opacity: var(--opacity-hover);
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}

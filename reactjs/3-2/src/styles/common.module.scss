@@ -1,0 +1,19 @@
+.widthContainer {
+  max-width: var(--max-width);
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.headingLarge,
+.headingMedium {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+.headingLarge {
+  font-size: 3rem;
+}
+
+.headingMedium {
+  font-size: 1.75rem;
+}

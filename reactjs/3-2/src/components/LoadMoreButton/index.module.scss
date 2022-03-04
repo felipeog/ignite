@@ -1,0 +1,12 @@
+.LoadMoreButton {
+  border: none;
+  background: none;
+  color: var(--highlight);
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: opacity var(--transition-duration);
+
+  &:hover {
+    opacity: var(--opacity-hover);
+  }
+}

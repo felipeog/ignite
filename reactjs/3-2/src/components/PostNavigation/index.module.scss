@@ -1,0 +1,35 @@
+.buttonsContainer {
+  display: flex;
+  border-top: 1px solid var(--gray-dark);
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.previousButton,
+.nextButton {
+  transition: var(--transition-duration);
+
+  &:hover {
+    opacity: var(--opacity-hover);
+  }
+}
+
+.previousButton {
+  margin-right: auto;
+}
+
+.nextButton {
+  margin-left: auto;
+  text-align: right;
+}
+
+.title {
+  color: var(--heading);
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  color: var(--highlight);
+  font-weight: 600;
+}

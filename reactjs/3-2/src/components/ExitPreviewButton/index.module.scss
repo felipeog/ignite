@@ -1,0 +1,19 @@
+.container {
+  margin-bottom: 6.625rem;
+
+  a {
+    display: block;
+    padding: 1.125rem;
+    background-color: var(--heading);
+    border-radius: 0.25rem;
+    color: var(--background);
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-align: center;
+    transition: opacity var(--transition-duration);
+
+    &:hover {
+      opacity: var(--opacity-hover);
+    }
+  }
+}
