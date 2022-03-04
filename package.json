@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "workspaces": [
-    "reactjs/*"
+    "reactjs/*",
+    "react-native/*",
+    "nodejs/*",
+    "elixir/*"
   ],
   "scripts": {
     "plop": "plop"
