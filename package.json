@@ -5,5 +5,11 @@
   "license": "MIT",
   "workspaces": [
     "reactjs/*"
-  ]
+  ],
+  "scripts": {
+    "plop": "plop"
+  },
+  "devDependencies": {
+    "plop": "^3.0.5"
+  }
 }
