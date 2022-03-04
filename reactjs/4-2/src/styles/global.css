@@ -1,0 +1,43 @@
+:root {
+  --brand-light: rgba(255, 186, 8, 0.5);
+  --brand: #ffba08;
+  --brand-dark: #e0a100;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--brand) !important;
+  transition: color 200ms;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--brand-dark) !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccd0d3 !important;
+  opacity: 1 !important;
+  transition: 200ms;
+}
+
+.swiper-pagination-bullet:hover {
+  opacity: 1 !important;
+  background-color: #bac2c7 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--brand) !important;
+  transition: 200ms;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active:hover {
+  background-color: var(--brand-dark) !important;
+}
+
+@media screen and (max-width: 999px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px !important;
+  }
+}
