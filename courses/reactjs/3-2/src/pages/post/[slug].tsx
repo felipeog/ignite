@@ -97,7 +97,7 @@ export const getStaticProps: GetStaticProps<IPostProps> = async ({
   const uid = params.slug as string;
   const prismic = getPrismicClient();
   const postResponse = await prismic.getByUID('posts', uid, {
-    ref: previewData?.ref ?? null,
+    ref: (previewData as any)?.ref ?? null,
   });
 
   if (!postResponse) {
@@ -113,7 +113,7 @@ export const getStaticProps: GetStaticProps<IPostProps> = async ({
       pageSize: 1,
       after: postResponse.id,
       orderings: '[document.first_publication_date desc]',
-      ref: previewData?.ref ?? null,
+      ref: (previewData as any)?.ref ?? null,
     }
   );
   const nextPostResponse = await prismic.query(
@@ -122,7 +122,7 @@ export const getStaticProps: GetStaticProps<IPostProps> = async ({
       pageSize: 1,
       after: postResponse.id,
       orderings: '[document.first_publication_date]',
-      ref: previewData?.ref ?? null,
+      ref: (previewData as any)?.ref ?? null,
     }
   );
 

@@ -86,7 +86,7 @@ export const getStaticProps: GetStaticProps<IHomeProps> = async ({
     {
       pageSize: 4,
       orderings: '[document.first_publication_date desc]',
-      ref: previewData?.ref ?? null,
+      ref: (previewData as any)?.ref ?? null,
     }
   );
 
