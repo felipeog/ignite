@@ -8,7 +8,7 @@ module.exports = function (plop) {
         type: "list",
         name: "technology",
         message: "Technology",
-        choices: ["reactjs", "react-native", "nodejs", "elixir"],
+        choices: ["elixir", "nodejs", "react-native", "reactjs"],
       },
       {
         type: "number",
@@ -24,7 +24,7 @@ module.exports = function (plop) {
     actions: [
       {
         type: "add",
-        path: "{{technology}}/{{chapter}}-{{challenge}}/package.json",
+        path: "courses/{{technology}}/{{chapter}}-{{challenge}}/package.json",
         templateFile: "plop-templates/workspace-package.json",
       },
     ],

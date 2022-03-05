@@ -5,7 +5,7 @@ _Rocketseat_
 Defining workspaces:
 
 ```
-yarn run plop
+yarn plop
 ```
 
 Running commands in the context of workspaces:
