@@ -1,6 +1,4 @@
-_Rocketseat_
-
-# Ignite
+# Rocketseat Ignite
 
 Defining workspaces:
 
